@@ -2,9 +2,9 @@
 
 A simple example of an app made with html,css and javascript on the electron platform.
 
-##Prerequisites
+## Prerequisites
 
-Have [Electron](https://github.com/electron/electron)installed.
+Install [Electron](https://github.com/electron/electron).
 
 
 ## Installation
@@ -20,6 +20,10 @@ git clone https://github.com/munabedan/todo-app.git
 ```bash
 electron main.js
 ```
+
+##Screenshot
+
+![Screenshot](.Screenshot.png)
 
 ## Contributing
 
