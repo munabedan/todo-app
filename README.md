@@ -21,7 +21,7 @@ git clone https://github.com/munabedan/todo-app.git
 electron main.js
 ```
 
-##Screenshot
+## Screenshot
 
 ![Screenshot](.Screenshot.png)
 
