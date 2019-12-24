@@ -23,7 +23,7 @@ electron main.js
 
 ## Screenshot
 
-![Screenshot](.Screenshot.png)
+![Screenshot](./Screenshots/Screenshot.png)
 
 ## Contributing
 

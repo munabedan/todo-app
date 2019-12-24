@@ -4,8 +4,9 @@ app:
 BrowserWindow:
     create and control browser windows
 */
-const READJSON =require('./readjson');
-const WRITEJSON =require('./writejson');
+global.__basedir = __dirname;
+const READJSON =require('./json-processor/readjson');
+const WRITEJSON =require('./json-processor/writejson');
 const {app, BrowserWindow} = require('electron')
 const url = require('url')
 const path = require('path')
@@ -26,7 +27,7 @@ function createWindow(){
     win = new BrowserWindow({width:600,height:400})
     win.setMenuBarVisibility(false)
     win.loadURL(url.format({
-        pathname:path.join(__dirname,'index.html'),
+        pathname:path.join(__dirname,'./mainwindow/index.html'),
         protocol:'file:',
         slashes: true
     }))
