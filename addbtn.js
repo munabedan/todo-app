@@ -34,8 +34,8 @@ list.addEventListener('click', function(ev) {
 function newElement() {
     var li = document.createElement("li");
     var inputValue = document.getElementById("myInput").value;
-    var t = document.createTextNode(inputValue);
-    li.appendChild(t);
+    var text = document.createTextNode(inputValue);
+    li.appendChild(text);
     if (inputValue === '') {
       alert("You must write something!");
     } else {
